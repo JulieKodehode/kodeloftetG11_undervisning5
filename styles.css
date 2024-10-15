@@ -36,6 +36,36 @@ main {
   height: 100vh;
 }
 
+.firstSection {
+
+}
+
+.card {
+  width: 500px;
+  /* height: 300px; */
+  border: 2px solid black;
+  display: flex;
+} 
+
+.cardText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.cardLinks {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.cardImg {
+  width: 50%;
+}
+
 /* FOOTER */
 footer {
   display: flex;
